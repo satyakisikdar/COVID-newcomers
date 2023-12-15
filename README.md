@@ -1,4 +1,4 @@
-# The COVID-19 research outbreak: how the pandemic culminated in a surge of new researchers &nbsp; &nbsp; [![Zenodo](https://zenodo.org/badge/DOI/xxx.svg)](https://doi.org/xxxx)
+# The COVID-19 research outbreak: how the pandemic culminated in a surge of new researchers &nbsp; &nbsp; [![Zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.10368779.svg)](https://doi.org/10.5281/zenodo.10368779)
 
 
 
@@ -15,7 +15,7 @@ conda env create -f environment.yml
 mkdir -p data
 ```
 
-3. Download the OpenAlex slices from [Zenodo](https://doi.org/xxxx) inside the `data` directory. 
+3. Download the OpenAlex slices from [Zenodo](https://doi.org/10.5281/zenodo.10368779) inside the `data` directory. 
 
 
 4. Extract `COVID.zip` zipped slices, so you should have the following files inside `data`: 
