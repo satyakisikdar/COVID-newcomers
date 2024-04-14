@@ -1,8 +1,8 @@
-# The COVID-19 research outbreak: how the pandemic culminated in a surge of new researchers &nbsp; &nbsp; [![Zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.10368779.svg)](https://doi.org/10.5281/zenodo.10368779)
+# What we should learn from pandemic publishing &nbsp; &nbsp; [![Zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.10368779.svg)](https://doi.org/10.5281/zenodo.10368779)
 
 
 
-Official code repository for the paper "The COVID-19 research outbreak: how the pandemic culminated in a surge of new researchers"
+Official code repository for the paper "What we should learn from pandemic publishing"
 
 ## Data preprocessing
 1. Create the `newcomers` conda environment from `environment.yml` by running 
