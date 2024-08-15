@@ -239,12 +239,12 @@ def get_topic_info(topic:str, ow_duration: int = 3, tw_duration: int = 5, verbos
 
     # end_date_ow = start_date_ow + pd.DateOffset(years=ow_duration)
     end_date_ow = pd.to_datetime(f'{start_date_ow.year + 2}-12-31')
-    observation_window = pd.date_range(start_date_ow, end_date_ow, freq='M')
+    observation_window = pd.date_range(start_date_ow, end_date_ow, freq='MS')
 
     end_date_tw = start_date_ow  # end date of exposure window is the start date of OW
     start_date_tw = start_date_ow - pd.DateOffset(years=tw_duration)
     end_date_tw = end_date_tw - pd.DateOffset(days=1) # end one day earlier 
-    training_window = pd.date_range(start_date_tw, end_date_tw, freq='M')
+    training_window = pd.date_range(start_date_tw, end_date_tw, freq='MS')
 
     if verbose:
         print(f'{topic!r} Core topics')
