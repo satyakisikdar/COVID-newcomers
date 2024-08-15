@@ -1,8 +1,8 @@
-# The COVID-19 research outbreak: how the pandemic culminated in a surge of new researchers &nbsp; &nbsp; [![Zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.10368779.svg)](https://doi.org/10.5281/zenodo.10368779)
+# What we should learn from pandemic publishing &nbsp; &nbsp; [![Zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.10368779.svg)](https://doi.org/10.5281/zenodo.10368779)
 
 
 
-Official code repository for the paper "The COVID-19 research outbreak: how the pandemic culminated in a surge of new researchers"
+Official code repository for the paper "What we should learn from pandemic publishing"
 
 ## Data preprocessing
 1. Create the `newcomers` conda environment from `environment.yml` by running 
@@ -10,21 +10,8 @@ Official code repository for the paper "The COVID-19 research outbreak: how the 
 conda env create -f environment.yml
 ```
 
-2. Create data directory by executing the following command:
-```
-mkdir -p data
-```
-
-3. Download the OpenAlex slices from [Zenodo](https://doi.org/10.5281/zenodo.10368779) inside the `data` directory. 
-
-
-4. Extract `COVID.zip` zipped slices, so you should have the following files inside `data`: 
-`works.parquet`, `works_authors.parquet`, and `works_concepts.parquet`.   
-
-## Running the experiments and generate plots 
+## Running the experiments and generating plots 
 * Run `main-experiment.ipynb` 
-* More info coming soon..
 
 ## More statistical analysis
-* Run `stat-analysis.ipynb`
-* More info coming soon..
+* Coming soon!
